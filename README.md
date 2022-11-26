@@ -21,7 +21,7 @@ In brief, the user must first:
 When run, the cracker will:
 
 - Decipher the chosen n-gram using every possible key.
-- Attempt to match thse deciphered n-grams to every word in the provided csv dictionary.
+- Attempt to match these deciphered n-grams to every word in the provided csv dictionary.
 - If a match is found, entire ciphertext is deciphered using that key. Both key and 
  potential plaintext are written to a log.
 
