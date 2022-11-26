@@ -1,16 +1,16 @@
 # vigenere_cipher_cracker
 
-###PLAGIARISM NOTICE: 
+### PLAGIARISM NOTICE: 
 
 Created by a CUoL student, ID: 210059011
 
 
-###ABOUT
+### ABOUT:
 
 Single threaded vigenere cipher cracker written in C for Linux systems.
 
 
-###FUNCTIONALITY
+### FUNCTIONALITY:
 
 In brief, the user must first:
 
@@ -29,7 +29,7 @@ The user may then process the log to search for additional common words to ident
 real key/plaintext pair.
 
 
-###USING THE CRACKER
+### USING THE CRACKER:
 
 This cracker is programmed for a very specific use case but is easily extensible. If 
 modifying the code, refer to this guide for the macro functionality:
