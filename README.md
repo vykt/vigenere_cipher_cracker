@@ -14,15 +14,15 @@ Single threaded vigenere cipher cracker written in C for Linux systems.
 
 In brief, the user must first:
 
--Identify key length.
--Identify n-gram from ciphertext to attack.
--Provide csv of common words, all same length as chosen n-gram.
+- Identify key length.
+- Identify n-gram from ciphertext to attack.
+- Provide csv of common words, all same length as chosen n-gram.
 
 When run, the cracker will:
 
--Decipher the chosen n-gram using every possible key.
--Attempt to match thse deciphered n-grams to every word in the provided csv dictionary.
--If a match is found, entire ciphertext is deciphered using that key. Both key and 
+- Decipher the chosen n-gram using every possible key.
+- Attempt to match thse deciphered n-grams to every word in the provided csv dictionary.
+- If a match is found, entire ciphertext is deciphered using that key. Both key and 
  potential plaintext are written to a log.
 
 The user may then process the log to search for additional common words to identify the 
